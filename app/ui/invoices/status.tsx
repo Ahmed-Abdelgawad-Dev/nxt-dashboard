@@ -12,6 +12,7 @@ export default function InvoiceStatus({ status }: { status: string }) {
         },
       )}
     >
+
       {status === 'pending' ? (
         <>
           Pending
